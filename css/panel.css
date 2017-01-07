@@ -1,0 +1,383 @@
+
+#trayPanel_c.yui-panel-container.shadow .underlay {
+    bottom: 0;
+    left: 0;
+    opacity: 0.12;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#trayPanel.yui-panel {
+    background-color: transparent;
+    border: medium none;
+    overflow: visible;
+    position: relative;
+}
+#trayPanel.yui-panel .container-close {
+    background-image: url("panel/img/exit.png");
+    background-repeat: no-repeat;
+    height: 18px;
+    left: 463px;
+    position: absolute;
+    top: 1px;
+    width: 17px;
+}
+#trayPanel.yui-panel .container-close:hover {
+    background-image: url("panel/img/exit.png");
+    background-repeat: no-repeat;
+}
+#trayPanel.yui-panel .hd {
+    background-color: #000000;
+    border: medium none;
+    color: #000000;
+    height: 18px;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+#trayPanel.yui-panel .bd {
+    background-image: url("panel/img/tray_bg.png");
+    background-repeat: repeat-x;
+    border: medium none;
+    height: 81px;
+    overflow: hidden;
+    padding: 0 0 0 14px;
+}
+#trayPanel.yui-panel .bd a {
+    border: medium none;
+    height: 80px;
+    margin-right: 13px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 0;
+}
+#trayPanel.yui-panel .ft {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DFDFDF;
+    border-color: -moz-use-text-color #AEAEAE #AEAEAE;
+    border-image: none;
+    border-right: 1px solid #AEAEAE;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    color: #666666;
+    font-size: 75%;
+    overflow: hidden;
+    padding: 2px;
+}
+#trayPanel.yui-panel .hd span {
+    font-weight: bold;
+    line-height: 22px;
+    vertical-align: middle;
+}
+#trayPanel.yui-panel .hd .tl {
+    background-image: url("panel/img/tray_preview.png");
+    background-repeat: no-repeat;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 110px;
+}
+#trayPanel.yui-panel .hd .tr {
+    border: medium none;
+    height: 16px;
+    outline: medium none;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 160px;
+}
+#trayPanel.yui-panel .hd .tr a {
+    border: medium none;
+    outline: medium none;
+}
+#matchPanel_c.yui-panel-container.shadow .underlay {
+    bottom: 0;
+    left: 0;
+    opacity: 0.12;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#matchPanel.yui-panel {
+    background-color: transparent;
+    border: medium none;
+    overflow: visible;
+    position: relative;
+}
+#matchPanel.yui-panel .container-close {
+    background-image: url("panel/img/matching_exit.png");
+    background-repeat: no-repeat;
+    height: 18px;
+    left: 348px;
+    position: absolute;
+    top: 1px;
+    width: 17px;
+}
+#matchPanel.yui-panel .container-close:hover {
+    background-image: url("panel/img/matching_exit.png");
+    background-repeat: no-repeat;
+}
+#matchPanel.yui-panel .hd {
+    border: medium none;
+    height: 0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+#matchPanel.yui-panel .bd {
+    background-image: url("panel/img/matching_bg.png");
+    background-repeat: repeat-x;
+    border: medium none;
+    height: 81px;
+    overflow: hidden;
+    padding: 0 0 0 5px;
+}
+#matchPanel.yui-panel .bd a {
+    border: medium none;
+    height: 80px;
+    margin-right: 10px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 0;
+}
+#matchPanel.yui-panel .ft {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DFDFDF;
+    border-color: -moz-use-text-color #AEAEAE #AEAEAE;
+    border-image: none;
+    border-right: 1px solid #AEAEAE;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    color: #666666;
+    font-size: 75%;
+    overflow: hidden;
+    padding: 2px;
+}
+#matchPanel.yui-panel .hd span {
+    font-weight: bold;
+    line-height: 22px;
+    vertical-align: middle;
+}
+#matchPanel.yui-panel .hd .tl {
+    background-image: url("panel/img/tray_preview.png");
+    background-repeat: no-repeat;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 110px;
+}
+#matchPanel.yui-panel .hd .tr {
+    border: medium none;
+    height: 16px;
+    outline: medium none;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 160px;
+}
+#matchPanel.yui-panel .hd .tr a {
+    border: medium none;
+    outline: medium none;
+}
+#morePanel_c.yui-panel-container.shadow .underlay {
+    bottom: 0;
+    left: 0;
+    opacity: 0.12;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#morePanel.yui-panel {
+    background-color: transparent;
+    border: medium none;
+    overflow: visible;
+    position: relative;
+}
+#morePanel.yui-panel .container-close {
+    background-image: url("panel/img/matching_exit.png");
+    background-repeat: no-repeat;
+    height: 18px;
+    left: 348px;
+    position: absolute;
+    top: 1px;
+    width: 17px;
+}
+#morePanel.yui-panel .container-close:hover {
+    background-image: url("panel/img/matching_exit.png");
+    background-repeat: no-repeat;
+}
+#morePanel.yui-panel .hd {
+    border: medium none;
+    height: 0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+#morePanel.yui-panel .bd {
+    background-image: url("panel/img/matching_bg.png");
+    background-repeat: repeat-x;
+    border: medium none;
+    height: 81px;
+    overflow: hidden;
+    padding: 0 0 0 5px;
+}
+#morePanel.yui-panel .bd a {
+    border: medium none;
+    height: 80px;
+    margin-right: 10px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 0;
+}
+#morePanel.yui-panel .ft {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DFDFDF;
+    border-color: -moz-use-text-color #AEAEAE #AEAEAE;
+    border-image: none;
+    border-right: 1px solid #AEAEAE;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    color: #666666;
+    font-size: 75%;
+    overflow: hidden;
+    padding: 2px;
+}
+#morePanel.yui-panel .hd span {
+    font-weight: bold;
+    line-height: 22px;
+    vertical-align: middle;
+}
+#morePanel.yui-panel .hd .tl {
+    background-image: url("panel/img/tray_preview.png");
+    background-repeat: no-repeat;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 110px;
+}
+#morePanel.yui-panel .hd .tr {
+    border: medium none;
+    height: 16px;
+    outline: medium none;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 160px;
+}
+#morePanel.yui-panel .hd .tr a {
+    border: medium none;
+    outline: medium none;
+}
+#retailerPanel_c.yui-panel-container.shadow .underlay {
+    bottom: 0;
+    left: 0;
+    opacity: 0.12;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#retailerPanel.yui-panel {
+    background-color: transparent;
+    border: medium none;
+    overflow: visible;
+    position: relative;
+}
+#retailerPanel.yui-panel .container-close {
+    background-image: url("panel/img/matching_exit.png");
+    background-repeat: no-repeat;
+    height: 18px;
+    left: 348px;
+    position: absolute;
+    top: 1px;
+    width: 17px;
+}
+#retailerPanel.yui-panel .container-close:hover {
+    background-image: url("panel/img/matching_exit.png");
+    background-repeat: no-repeat;
+}
+#retailerPanel.yui-panel .hd {
+    border: medium none;
+    height: 0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+#retailerPanel.yui-panel .bd {
+    background-image: url("panel/img/matching_bg.png");
+    background-repeat: repeat-x;
+    border: medium none;
+    height: 81px;
+    overflow: hidden;
+    padding: 0 0 0 5px;
+}
+#retailerPanel.yui-panel .bd a {
+    border: medium none;
+    height: 80px;
+    margin-right: 10px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 0;
+}
+#retailerPanel.yui-panel .ft {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DFDFDF;
+    border-color: -moz-use-text-color #AEAEAE #AEAEAE;
+    border-image: none;
+    border-right: 1px solid #AEAEAE;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    color: #666666;
+    font-size: 75%;
+    overflow: hidden;
+    padding: 2px;
+}
+#retailerPanel.yui-panel .hd span {
+    font-weight: bold;
+    line-height: 22px;
+    vertical-align: middle;
+}
+#retailerPanel.yui-panel .hd .tl {
+    background-image: url("panel/img/tray_preview.png");
+    background-repeat: no-repeat;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 110px;
+}
+#retailerPanel.yui-panel .hd .tr {
+    border: medium none;
+    height: 16px;
+    outline: medium none;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 160px;
+}
+#retailerPanel.yui-panel .hd .tr a {
+    border: medium none;
+    outline: medium none;
+}
